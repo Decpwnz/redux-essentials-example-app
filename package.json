@@ -1,0 +1,32 @@
+{
+  "name": "redux-essentials-example",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "@faker-js/faker": "^8",
+    "@mswjs/data": "^0.16",
+    "@reduxjs/toolkit": "^2",
+    "classnames": "^2.2.6",
+    "date-fns": "^3",
+    "mock-socket": "^9.0.3",
+    "msw": "^2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-redux": "^9",
+    "react-router-dom": "^5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "prettier": "^3.2.1",
+    "vite": "^5.0.11"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
